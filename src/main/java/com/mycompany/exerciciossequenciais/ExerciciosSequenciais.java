@@ -46,6 +46,7 @@ public class ExerciciosSequenciais {
     }
 
         static void CalcularOValorDoCofre(){
+//            definicao de variavel
             double qtdDolares = 0.0d;
             double cotacaoDolar = 0.0d;
             double valorReais = 0.0d;
