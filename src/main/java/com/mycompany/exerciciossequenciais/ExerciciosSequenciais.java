@@ -7,7 +7,9 @@ public class ExerciciosSequenciais {
     public static void main(String[] args) {
       //CalcularMediaPonderada();
 //      ExercioDesconto();
-       CalcularOValorDoCofre();
+//       CalcularOValorDoCofre();
+        ConversaoTemperatura();
+    
     } 
     
     static void CalcularMediaPonderada(){
@@ -59,6 +61,25 @@ public class ExerciciosSequenciais {
             System.out.println("O cofre guarda R$:" + valorReais);
             
         }
+        
+        
+        
+        static void ConversaoTemperatura(){
+        double celsius;
+        double f;
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Informe a temperatura em graus Celsius: ");
+        celsius = scanner.nextDouble();
+        
+        f = ((9 * celsius + 160 ) /5);
+        
+        System.out.println("A temperatura em celsius é: " + celsius);
+        System.out.println("A temperatura em fahrenheit é: " + f);
+
+        
+    }
 }
 
 
