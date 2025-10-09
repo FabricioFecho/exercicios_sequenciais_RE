@@ -8,8 +8,8 @@ public class ExerciciosSequenciais {
       //CalcularMediaPonderada();
 //      ExercioDesconto();
 //       CalcularOValorDoCofre();
-        ConversaoTemperatura();
-    
+//        ConversaoTemperatura();
+          exercicioGpt();
     } 
     
     static void CalcularMediaPonderada(){
@@ -80,8 +80,5 @@ public class ExerciciosSequenciais {
 
         
     }
+      
 }
-
-
-
-    
